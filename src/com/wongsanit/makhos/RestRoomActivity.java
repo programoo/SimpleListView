@@ -23,12 +23,6 @@ public class RestRoomActivity extends ListActivity {
 		
 		String[] players  = new String[] 
 				{ "Leonel Messi",
-					"Zinedine Zidane",
-					"Diego Maradona",
-					"Marco Van Basten",
-					"Ronaldinho",
-					"Steven Gerrard",
-					"Cristiano Ronaldo",
 					"Gareth Bale",
 					"Neymar",
 					"Zlatan Ibrahimovich" };
