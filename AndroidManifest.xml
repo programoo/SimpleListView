@@ -28,6 +28,12 @@
 		    android:theme="@style/AppTheme"
 		    android:screenOrientation="portrait"            
 		    android:label="Hello_Im_rest_room" />
+        
+        <activity 
+		    android:name="com.wongsanit.makhos.CustomListViewActivity"
+		    android:theme="@style/AppTheme"
+		    android:screenOrientation="portrait"            
+		    android:label="Hello_Im_rest_room" />
     </application>
 
 </manifest>

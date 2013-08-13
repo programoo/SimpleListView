@@ -3,7 +3,6 @@ package com.wongsanit.makhos;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -39,7 +38,7 @@ public class RestRoomActivity extends ListActivity {
 	@Override
 	public void onBackPressed() {
 		super.onBackPressed();
-		Intent it = new Intent(RestRoomActivity.this,MainActivity.class);
+		Intent it = new Intent(RestRoomActivity.this,CustomListViewActivity.class);
 		startActivity(it);
 	}
 
