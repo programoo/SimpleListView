@@ -21,16 +21,16 @@ public class RestRoomActivity extends ListActivity {
                                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		
 		String[] players  = new String[] 
-				{ "Leonel Messi",
-					"Zinedine Zidane",
-					"Diego Maradona",
-					"Marco Van Basten",
-					"Ronaldinho",
-					"Steven Gerrard",
-					"Cristiano Ronaldo",
-					"Gareth Bale",
-					"Neymar",
-					"Zlatan Ibrahimovich" };
+				{ "a b",
+					"asdf asdf",
+					"bdsfa asdfasdf",
+					"asdf sdf ab",
+					"asdfbb",
+					"ba asdfasdf",
+					"asd asdfb",
+					"asdf asb",
+					"asdf",
+					"asdf sbdfdf" };
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, players);
         setListAdapter(adapter);
 	}
